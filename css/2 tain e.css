@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: #F5F5F5;
+  height: 202rem;
+}
+.box {
+  min-width: 375px;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 375px;
+  max-height: 1720px;
+}
+.header {
+  width: 100%;
+  height: 45px;
+  background-color: #FF8A00;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.header > li:nth-of-type(2) {
+  display: flex;
+  margin-top: 10px;
+  flex: 1;
+  margin-left: 20px;
+}
+.header > li:nth-of-type(1) {
+  margin-top: 5px;
+  margin-left: 40px;
+  flex: 1.5;
+}
+.header > li:nth-of-type(1) > img {
+  width: 90px;
+  height: 40px;
+}
+.header > li:nth-of-type(2) > img {
+  width: 30px;
+  height: 30px;
+}
+.carefree {
+  width: 100%;
+  height: 217px;
+  background: url(../img/banner.png) no-repeat;
+  background-size: 100%;
+  background-color: #FF8A00;
+  position: relative;
+}
+.carefree > p {
+  position: absolute;
+  color: white;
+  top: 17rem;
+  left: 32rem;
+  width: 5rem;
+  height: 3rem;
+  background-color: #140C0A;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  text-align: center;
+}
+.shouye {
+  width: 100%;
+  height: 4rem;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  display: flex;
+}
+.shouye > li {
+  align-self: center;
+  margin-left: 1rem;
+}
+.shouye > li {
+  font-size: 1.4rem;
+}
+.shouye > li > span:nth-of-type(1) {
+  color: black;
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding-left: 0.2rem;
+}
+/* 关注 */
+.attention {
+  width: 100%;
+  height: 8rem;
+  background-color: white;
+  display: flex;
+  border-bottom: 1px solid gainsboro;
+}
+.attention > li:nth-of-type(1) {
+  flex: 3;
+  color: black;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  text-indent: 1rem;
+}
+.attention > li:nth-of-type(2) {
+  flex: 1;
+  border-left: 1px solid #c8c4c4;
+  text-align: center;
+  line-height: 12rem;
+  font-size: 1.7rem;
+  background: url(../img/xin.png) no-repeat 2.6rem 1rem;
+  background-size: 4rem ;
+}
+/* 租金 */
+.rent {
+  width: 100%;
+  height: 10rem;
+  border-bottom: 1px solid gainsboro;
+  display: flex;
+  justify-content: space-around;
+}
+.rent > li {
+  width: 30%;
+  border-right: 1px solid gainsboro;
+}
+.rent > li > p:nth-of-type(1) {
+  margin-top: 3rem;
+  text-indent: 1rem;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+.rent > li > p:nth-of-type(2) {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  color: #FF8A00;
+}
+.school {
+  width: 100%;
+  height: 20rem;
+  background-color: white;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.school > li {
+  flex: 1;
+  border-bottom: 1px solid gainsboro;
+  line-height: 6rem;
+  text-indent: 1.5rem;
+  font-size: 1.4rem;
+}
+.school > li > span:nth-of-type(2) {
+  margin-left: 6rem;
+}
+/* 房源特色 */
+.feature {
+  width: 100%;
+  height: 20rem;
+  background-color: white;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.feature > li:nth-of-type(1) {
+  flex: 1;
+  border-bottom: 1px solid #ccc6c6;
+  width: 100%;
+  text-indent: 3rem;
+  font-size: 2rem;
+  color: #FF8A00;
+  font-weight: 600;
+  line-height: 7rem;
+  background: url(../img/right.png) no-repeat 35rem 2rem;
+}
+.feature > li:nth-of-type(2) {
+  flex: 2;
+  border-bottom: 1px solid #dcd8d8;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  text-indent: 0.5rem;
+}
+/*  看房客户记录*/
+.feature1 {
+  width: 100%;
+  height: 10rem;
+  background-color: white;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.feature1 > li:nth-of-type(1) {
+  flex: 1;
+  border-bottom: 1px solid #ccc6c6;
+  width: 100%;
+  text-indent: 3rem;
+  font-size: 2rem;
+  color: #FF8A00;
+  font-weight: 600;
+  line-height: 7rem;
+  background: url(../img/right.png) no-repeat 35rem 2rem;
+}
+.feature1 > li:nth-of-type(2) {
+  flex: 2;
+  border-bottom: 1px solid #dcd8d8;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  text-indent: 0.5rem;
+}
+/* 地图 */
+.ifame {
+  width: 100%;
+  height: 40rem;
+  background-color: white;
+}
+#pp1 {
+  width: 100%;
+  height: 6rem;
+  border-bottom: 1px solid gainsboro;
+  color: black;
+  background-color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 5rem;
+  text-indent: 3rem;
+  margin-top: 2rem;
+}
+#p2 {
+  width: 100%;
+  height: 6rem;
+  border-bottom: 1px solid gainsboro;
+  color: #FF8A00;
+  background-color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 5rem;
+  text-indent: 3rem;
+  margin-top: 2rem;
+}
+.feature2 {
+  width: 100%;
+  height: 14rem;
+  background-color: white;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.feature2 > li:nth-of-type(1) {
+  flex: 1;
+  border-bottom: 1px solid #ccc6c6;
+  width: 100%;
+  text-indent: 3rem;
+  font-size: 2rem;
+  color: #FF8A00;
+  font-weight: 600;
+  line-height: 7rem;
+  background: url(../img/right.png) no-repeat 35rem 2rem;
+}
+.feature2 > li:nth-of-type(2) > span {
+  color: #FF8A00;
+}
+.feature2 > li:nth-of-type(2) {
+  flex: 2;
+  border-bottom: 1px solid #dcd8d8;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  text-indent: 0.5rem;
+  margin-left: 2rem;
+}
+/* 致电 */
+.phone {
+  width: 100%;
+  height: 6rem;
+  background-color: white;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.phone > li:nth-of-type(1) {
+  display: flex;
+}
+.phone > li:nth-of-type(1) > img {
+  margin-top: 0.6rem;
+  width: 5rem;
+  height: 5rem;
+}
+.phone > li:nth-of-type(1) > p {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+.phone > li:nth-of-type(2) {
+  background: url(../img/icon1.png) no-repeat 0rem 1rem;
+  background-size: 2.8rem;
+  line-height: 10rem;
+  font-size: 1.4rem;
+  color: #5DCB96;
+}
+.phone > li:nth-of-type(3) {
+  line-height: 10rem;
+  font-size: 1.4rem;
+  color: #5BAEDE;
+  background: url(../img/icon2.png) no-repeat 0rem 1rem;
+  background-size: 2.8rem;
+}
+.foot {
+  width: 100%;
+  height: 14rem;
+  background-color: #201f1f;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.foot > p {
+  color: #7f7c7c;
+  flex: 1;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #8a8888;
+  line-height: 4rem;
+  font-weight: 600;
+  text-indent: 1rem;
+}
+.foot > ul {
+  flex: 2;
+  display: flex;
+}
+.foot > ul > li:nth-of-type(1) {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(../img/apple.png) no-repeat 3rem 3rem;
+  background-size: 3rem 3rem;
+}
+.foot > ul > li:nth-of-type(1) > p {
+  color: grey;
+  font-size: 1.4rem;
+}
+.foot > ul > li:nth-of-type(2) {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(../img/android.png) no-repeat 3rem 3rem;
+  background-size: 3rem 3rem;
+}
+.foot > ul > li:nth-of-type(2) > p {
+  color: grey;
+  font-size: 1.4rem;
+}
