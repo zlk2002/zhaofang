@@ -8,6 +8,8 @@
     <title>二手房</title>
     <link rel="stylesheet" href="./css/4 xiaoqu.css">
     <script src="./js/rem.js"></script>
+    <script src="./js/touch-0.2.14.min.js"></script>
+  
 </head>
 
 <body>
@@ -98,4 +100,16 @@
 </div>
 </body>
 
-</html>
+</html> 
+<script src="./js/4.xiaoqu.js"></script>
+<script>
+    var box=document.getElementsByClassName('box')[0]
+   touch.on(box, 'swipeleft', function() {
+    
+    window.location.href = './5 xiao qu.html'; 
+   
+});
+ touch.on(box, 'swiperight', function() {
+window.location.href = './3 xiao qu.htm'; 
+    });
+</script>

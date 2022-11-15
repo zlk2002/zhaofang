@@ -8,6 +8,7 @@
     <title>北京租房</title>
     <link rel="stylesheet" href="./css/5 xiaoqu.css">
     <script src="./js/rem.js"></script>
+    <script src="./js/touch-0.2.14.min.js"></script>
 </head>
 
 <body>
@@ -138,3 +139,10 @@
 </body>
 
 </html>
+<script src="./js/5.js"></script>
+<script>
+ var box=document.getElementsByClassName('box')[0]
+ touch.on(box, 'swiperight', function() {
+window.location.href = './4 xiao qu.html'; 
+    });
+</script>
