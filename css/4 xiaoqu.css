@@ -79,6 +79,14 @@ body {
   font-weight: 400;
   margin-left: 1.5rem;
 }
+.type > li > span {
+  display: inline-block;
+  border-top: 5px solid gray;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  margin-bottom: 0.8rem;
+}
 .house {
   background-color: white;
   width: 94%;
