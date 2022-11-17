@@ -108,3 +108,14 @@ but.onclick=function(){
 //          }
 //     }
    
+touch.on(window,'swiperight',function(){
+    window.location.href='./pu tong .html';
+})
+
+touch.on(window,'swipeleft',function(){
+    window.location.href='./deng lu.html';
+})
+
+touch.on(window,'swipeup',function(){
+    window.location.href='./index.html';
+})
