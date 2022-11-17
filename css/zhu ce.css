@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 37.5rem;
+}
+.tou {
+  width: 100%;
+  height: 5rem;
+  background-color: #ff8a00;
+  display: flex;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.tou > span:nth-of-type(1) {
+  flex: 4;
+  background: url(../img/logo.jpg) no-repeat 1rem 0rem;
+  background-size: contain;
+}
+.tou > a:nth-of-type(1) {
+  flex: 1;
+  text-decoration: none;
+  padding-top: 3rem;
+  text-align: center;
+  color: white;
+  background: url(../img/urse.png) no-repeat 2rem 1rem;
+  background-size: 1.5rem;
+}
+.tou > span:nth-of-type(2) {
+  flex: 1;
+  padding-top: 3rem;
+  text-align: center;
+  color: white;
+  background: url(../img/xiazai.jpg) no-repeat 2rem 1rem;
+  background-size: 2.7rem;
+}
+.zhuce {
+  width: 100%;
+}
+.zhuce .list {
+  width: 100%;
+  list-style-type: none;
+}
+.zhuce .list > li {
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  border-bottom: 0.1rem solid black;
+}
+.zhuce .list .l1 {
+  height: 3rem;
+  line-height: 3rem;
+}
+.zhuce .list .l1 > a {
+  text-decoration: none;
+  color: black;
+}
+.zhuce .list .l1 > a:nth-of-type(1) {
+  font-weight: 600;
+}
+.zhuce .list .l2 {
+  display: flex;
+  justify-content: space-between;
+}
+.zhuce .list .l2 > input {
+  flex: 1;
+  border: none;
+  font-size: 1rem;
+}
+.zhuce .list .l2 > span:nth-of-type(1) {
+  width: 7rem;
+  height: 2.5rem;
+  border: 0.1rem solid black;
+  line-height: 2.5rem;
+  text-align: center;
+  margin-top: 0.6rem;
+  margin-right: 1rem;
+}
+.zhuce .list .l3 {
+  display: flex;
+}
+.zhuce .list .l3 > input {
+  flex: 1;
+  border: none;
+  font-size: 1rem;
+}
+.zhuce .list .l4 {
+  display: flex;
+}
+.zhuce .list .l4 > input {
+  flex: 1;
+  border: none;
+  font-size: 1rem;
+}
+.zhuce > button {
+  width: 90%;
+  height: 5rem;
+  background-color: #ff8a00;
+  line-height: 5rem;
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+.dd {
+  height: 3rem;
+  border-radius: 1rem;
+  line-height: 3rem;
+  text-align: center;
+  background-color: gold;
+  opacity: 0.6;
+  position: absolute;
+  top: 6rem;
+  left: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  display: none;
+}
