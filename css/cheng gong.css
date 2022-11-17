@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 37.5rem;
+}
+.tou {
+  width: 100%;
+  height: 5rem;
+  background-color: #ff8a00;
+  display: flex;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.tou > span:nth-of-type(1) {
+  flex: 4;
+  background: url(../img/logo.jpg) no-repeat 1rem 0rem;
+  background-size: contain;
+}
+.tou > a:nth-of-type(1) {
+  flex: 1;
+  text-decoration: none;
+  padding-top: 3rem;
+  text-align: center;
+  color: white;
+  background: url(../img/urse.png) no-repeat 2rem 1rem;
+  background-size: 1.5rem;
+}
+.tou > span:nth-of-type(2) {
+  flex: 1;
+  padding-top: 3rem;
+  text-align: center;
+  color: white;
+  background: url(../img/xiazai.jpg) no-repeat 2rem 1rem;
+  background-size: 2.7rem;
+}
+.dao {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.dao > a {
+  text-decoration: none;
+  color: black;
+}
+.dao > a:nth-of-type(2) {
+  font-weight: 600;
+}
+.min {
+  width: 100%;
+}
+.min .min_tou {
+  width: 100%;
+  height: 15rem;
+  background: url(../img/bg2.png) no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.min .min_tou > span:nth-of-type(1) {
+  flex: 3;
+  background: url(../img/urse2.png) no-repeat center;
+  background-size: 5rem;
+}
+.min .min_tou > span:nth-of-type(2) {
+  flex: 2;
+  text-align: center;
+  padding-top: 2rem;
+  box-sizing: border-box;
+}
+.min .min_tou > span:nth-of-type(2) > a {
+  text-decoration: none;
+  color: green;
+}
+.min .list {
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+.min .list > li {
+  width: 100%;
+  height: 4rem;
+  border-bottom: 0.1rem solid black;
+  line-height: 4rem;
+  background: url(../img/right.png) no-repeat right center;
+  background-size: 1rem;
+}
+.min .but {
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.min .but > button {
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  color: gold ;
+  background-color: white;
+  font-size: 1.5rem;
+}

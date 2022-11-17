@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #F5F5F5;
+    height: 87rem;
+}
+.box{
+    min-width: 37.5rem;
+   max-width: 60rem;
+   margin: 0 auto;
+   width: 37.5rem;
+   max-height: 172rem;
+}
+// 头部
+.header{
+    width:100%;
+    height: 4.5rem;
+    background-color: #FF8A00;
+    display: flex;
+    justify-content: space-around; 
+    margin:  0 auto;
+    &>li:nth-of-type(2){
+      display: flex; 
+    margin-top: 1rem;
+    flex: 1;
+   margin-left: 2rem;
+    }
+    &>li:nth-of-type(1){
+        margin-top: .5rem;
+        margin-left: 4rem;
+        flex: 1.5;
+    }
+    &>li:nth-of-type(1)>img{
+width: 9rem;
+height: 4rem;
+
+
+    }
+    &>li:nth-of-type(2)>img{
+         width: 3rem;
+        height: 3rem;
+        
+            }
+}
+// 搜索框部分
+.two{
+    width: 100%;
+    height: 6rem;
+    border-bottom: .1rem solid rgb(173, 171, 171);
+    border-left: 1px solid  rgb(173, 171, 171);
+    border-right: 1px solid  rgb(173, 171, 171);
+    display: flex;
+    &>.search{
+    width: 90%;
+    height: 70%;
+    margin-top: 1rem;
+    margin-left: 1.4rem;
+    text-indent: 3rem;
+   background: url(./../img/search_03.png) no-repeat 30rem 1rem;
+   background-size: 2rem 2rem; 
+   background-color: white;
+   border: 1px solid gainsboro;
+}
+}
+// 房子类型信息
+.type{
+    width: 100%;
+    height: 6rem;
+    border-bottom: 1px solid rgb(173, 171, 171);
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border-left: 1px solid  rgb(173, 171, 171);
+    border-right: 1px solid  rgb(173, 171, 171);
+    &>li{
+        width: 20%;
+        height: 100%;
+        line-height: 6rem;
+        font-size: 2.3rem;
+        font-weight: 400;
+        margin-left: 1.5rem;
+    }
+    &>li>span{
+        display: inline-block;
+        border-top: 5px solid gray;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+       
+       margin-bottom: .8rem;
+    }
+}
+// 房源
+.house{
+    background-color: white;
+    width: 94%;
+    height: 16rem;
+   display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid red;
+    &>li:nth-of-type(1){
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
+        margin-left: 1rem;
+       
+    }
+    &>li:nth-of-type(1)>img{
+        width: 9rem;
+        height: 9rem;
+       
+    }
+    &>li:nth-of-type(2){
+        height: 12rem;
+        display: flex;
+       flex: 2;
+       flex-direction: column;
+      justify-content: space-evenly;
+      margin-top: 2rem;
+   }
+   &>li:nth-of-type(2)>p:nth-of-type(1){
+    color: black;
+    font-size: 1.5rem;
+    white-space:nowrap;
+    font-weight: 600;
+   }
+   &>li:nth-of-type(2)>p:nth-of-type(2){
+    display: flex;
+   }
+   &>li:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(1){
+    flex: 3.5;
+   }
+   &>li:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(2){
+    color: #FF8A00;
+    flex:1;
+    font-size: 1.5rem;
+    font-weight: 600;
+   }
+   &>li:nth-of-type(2)>p:nth-of-type(3){
+    display: flex;
+    font-size: 1.5rem;
+    color: rgb(174, 165, 165);
+   }
+   
+   &>li:nth-of-type(2)>p:nth-of-type(3)>span:nth-of-type(1){
+    font-size: 1.4rem;
+font-weight: 600;
+   color: #FF8A00;
+   }
+   &>li:nth-of-type(2)>p:nth-of-type(4){
+    font-size: 1.4rem;
+    color: rgb(174, 165, 165);
+   }
+   
+
+}
+// 底部
+.foot{
+    width: 100%;
+    height: 14rem;;
+    background-color: rgb(32, 31, 31);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    &>p{
+        color: rgb(127, 124, 124);
+        flex: 1;
+       font-size: 1.5rem;
+        border-bottom: 1px solid rgb(138, 136, 136);
+        line-height: 4rem;
+        font-weight: 600;
+        text-indent: 1rem;
+    }
+    &>ul{
+        flex: 2;
+        // background-color: #FF8A00;
+        display: flex;
+    }
+    &>ul>li:nth-of-type(1){
+        width: 50%;
+        height: 100%;
+        text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+     background: url(./../img/apple.png) no-repeat 3rem 3rem;
+     background-size: 3rem 3rem;
+    }
+    &>ul>li:nth-of-type(1)>p{
+        color: grey;
+        font-size: 1.4rem;
+        
+    }
+    &>ul>li:nth-of-type(2){
+        width: 50%;
+        height: 100%;
+        text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+     background: url(./../img/android.png) no-repeat 3rem 3rem;
+     background-size: 3rem 3rem;
+    }
+    &>ul>li:nth-of-type(2)>p{
+        color: grey;
+        font-size: 1.4rem;
+        
+    }
+}

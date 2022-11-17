@@ -8,7 +8,7 @@ function setRem() {
         var clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
         // console.log(ui_w, clientWidth);
 clientWidth=clientWidth>600? 600:clientWidth
-clientWidth=clientWidth<250? 250:clientWidth
+clientWidth=clientWidth<375? 375:clientWidth
         // 通过js动态改变html根节点字体大小
         var html_ = document.getElementsByTagName('html')[0];
         html_.style.fontSize = (clientWidth / ui_w) * 10 + 'px';
@@ -19,3 +19,4 @@ clientWidth=clientWidth<250? 250:clientWidth
 }
 // window.onresize 浏览器被重置大小执行事件
 window.onresize = setRem;
+setRem()
